@@ -138,7 +138,7 @@ body {
     height: 100vh;
     background-image: url("chili-4954849_1920.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: 50% 50%;
     animation: fade 10s infinite;
 }
@@ -163,6 +163,7 @@ body {
     font-size: 14vw;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 2vh;
 }
 
 .oneshot {
@@ -184,7 +185,7 @@ body {
     height: 100vh;
     background-image: url("fighting-fish-2009971_1280.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: 50% 50%;
 }
 
@@ -204,6 +205,7 @@ body {
 }
 
 .aboutustext {
+    overflow: hidden;
     font-family: 'Oswald', sans-serif;
     width: 70%;
     height: 50vh;
@@ -230,7 +232,7 @@ body {
     height: 100vh;
     background-image: url("swan-3784050_1920.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: 50% 50%;
 }
 
@@ -291,7 +293,7 @@ body {
     height: 100vh;
     background-image: url("cute-3333079_1920.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: 50% 50%;
 }
 
@@ -327,3 +329,43 @@ body {
 #prz2 {
     margin-top: 3vh;
 }
+
+
+/* MOBILNE */
+
+@media screen and (max-width:800px) {
+    .aboutustext {
+        font-size: 2.5vh;
+    }
+    .galeriazdjecie {
+        background-size: 10%;
+    }
+    .formkontakt input {
+        font-size: 2vw;
+    }
+    .content1 {
+        background-image: url("flower-2040613_1920.jpg");
+        animation: none;
+    }
+    .fotografia {
+        padding: 2vh;
+        margin-bottom: -15vh;
+    }
+}
+
+@media screen and (min-width:675px) and (max-width:800px) {
+    .fotografia {
+        margin-bottom: 1vh;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:1020) {}
+
+@media screen and (max-width:870px) {
+    .content2 {
+        background-size: cover;
+    }
+}
+
+
+/* MOBILNE */
